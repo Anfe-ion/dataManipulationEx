@@ -1,0 +1,66 @@
+{
+  "store": {
+    "name": "E-Bike Store",
+    "location": "Bogotá, Colombia",
+    "products": [
+      {
+        "id": 1,
+        "name": "E-Bike Modelo A",
+        "category": "Mountain",
+        "price": 1200,
+        "specifications": {
+          "battery": "500Wh",
+          "motor": "250W",
+          "range": "60km",
+          "weight": "20kg"
+        }
+      },
+      {
+        "id": 2,
+        "name": "E-Bike Modelo B",
+        "category": "Urban",
+        "price": 1000,
+        "specifications": {
+          "battery": "400Wh",
+          "motor": "200W",
+          "range": "50km",
+          "weight": "18kg"
+        }
+      }
+    ],
+    "users": [
+      {
+        "userId": 101,
+        "name": "Juan Pérez",
+        "email": "juan.perez@example.com",
+        "purchases": [
+          {
+            "orderId": 1001,
+            "productId": 1,
+            "purchaseDate": "2024-08-30",
+            "quantity": 1
+          },
+          {
+            "orderId": 1002,
+            "productId": 2,
+            "purchaseDate": "2024-08-31",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "userId": 102,
+        "name": "María Gómez",
+        "email": "maria.gomez@example.com",
+        "purchases": [
+          {
+            "orderId": 1003,
+            "productId": 2,
+            "purchaseDate": "2024-08-31",
+            "quantity": 2
+          }
+        ]
+      }
+    ]
+  }
+}
